@@ -7,9 +7,9 @@ import javax.persistence.Id;
 public class User {
 
     @Id
-    int id;
-    String firstName,lastName;
-    int age;
+    private int id;
+    private String firstName,lastName;
+    private int age;
 
     public User() {
     }
